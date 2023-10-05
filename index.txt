@@ -1,0 +1,35 @@
+html - hyper text markup language for browsers
+to start a html file you have to write what ever u want in html tags
+tags : 
+    building blocks of a webpage
+    ex : div, p, span, a etc..
+
+1. what are all these tags ??
+2. what is the difference between each tag???
+3. why only specific tags are required to fulfill ur need??
+
+
+tags are actually divided into 2 categories
+1. block elements
+2. inline elements
+
+BLOCK ELEMENTS : 
+    are those elements which takes a complete line
+    ex : div, p etc..
+
+INLINE ELEMENTS :
+    are those elements which only take space that is required
+    ex : span, a etc..
+
+
+FEW MORE TAGS:
+1. HEAD : head tag is used to define the webpage information and also to link the external links or files
+2. TITLE : title tag is used to give name to the webpage
+3. BODY : body tag is used to build the website structure
+4. META : meta tags are used to provide information to browser as well as search engines
+5. HEADER : header tag for html
+6. FOOTER  : footer tag for html
+7. NAV : nav tag for html
+
+
+
