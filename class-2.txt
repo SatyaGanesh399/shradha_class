@@ -1,0 +1,19 @@
+HEADERS : header tags are of 6 types
+    ex : h1, h2, h3, h4, h5, h6 - font size varies from increasing to decreading
+    these are also block tags
+
+TABLES :
+    ex : table, th - table header, tr - table row, td - table data etc.,
+    atr : border - "1" or "0" etc.,
+
+HR tag:
+    horizontal rule- straght line
+    self closing tag
+
+LISTS :
+    1. ordered list
+    2. unordered list
+    3. definition list
+
+BR tag : 
+    break tag
