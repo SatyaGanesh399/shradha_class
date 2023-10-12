@@ -1,3 +1,15 @@
-p{
-    background : blue;
+/* div elements */
+.parent{
+    background : red;
+    height : 200px;
+    width : 50%;
+    border : 5px solid green;
+    border-radius : 20px;
+    overflow : hidden;
+}
+.child{
+    background: yellow;
+    height : 50%;
+    width : 50%;
+    
 }
