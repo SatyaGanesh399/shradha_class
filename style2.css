@@ -1,0 +1,64 @@
+.parent{
+    width : 50%;
+    height : 200px;
+    background-color: blue;
+    font-size: 20px;
+}
+.parent .fonts{
+    font-size: 20px; /* fonts- px, rem, em */
+    color : whitesmoke;
+    font-weight: 900;
+    line-height: 30px;
+    font-style: italic;
+    text-align: center;
+    /* text-align: justify;
+    text-align: right;
+    text-align: left; */
+
+}
+/* CSS SELECTORS  */
+/* # - id */
+/* . -  class */
+#parent2 p {
+    color : red;
+}
+#parent2 a {
+    color : yellow
+}
+/* FLEX BOX */
+body{
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.flex-parent{
+    width : 500px;
+    height : 300px;
+    background-color: aqua;
+
+    display: flex; /* defualt - it aligns the items into horizontal (row) */
+    /* flex-direction:column;  - changes direction from row to column and vice versa */  
+    align-items: center; /* horizontally centers */
+
+
+    justify-content: center; /* vertically centers */
+    /* justify-content : center -  vertically aligns all the items center */
+    /* justify-content : space-between -  takes all the space and keeps in between the elements */
+    /* justify-content : space-around -  divides the space evenly among each element */
+    /* justify-content : space-evenly -  divides the space evenly among all elements */
+    /* justify-content : start  */
+    /* justify-content : end  */
+}
+.flex-child1{
+    width : 10%;
+    height : 100px;
+    background-color: black;
+
+}
+.flex-child2{
+    width : 100px;
+    height : 100px;
+    background-color: grey;
+    flex : 1;
+}
