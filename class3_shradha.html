@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent-parent{
+            /* background-color: red; */
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .parent{
+            width : 90%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            /* background-color: aqua; */
+        }
+        .child{
+            width : 200px;
+            height : 200px;
+            border : 1px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .number{
+            font-size: 5rem;
+            font-weight: 700;
+            color : coral
+        }
+        .detail{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent-parent">
+    <div class="parent">
+        <div class="child">
+            <span class="number">01</span>
+            <span class="detail">HIKE</span>
+        </div>
+        <div class="child">
+            <span class="number">01</span>
+            <span class="detail">HIKE</span>
+        </div>
+        <div class="child">
+            <span class="number">01</span>
+            <span class="detail">HIKE</span>
+        </div>
+        <div class="child">
+            <span class="number">01</span>
+            <span class="detail">HIKE</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
