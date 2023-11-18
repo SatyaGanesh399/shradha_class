@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SignUp Form</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/a659080be8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<!-- Add this inside the <head> section of your HTML document -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 </head>
 <body>
 <div class="container-background">
     <div class="container">
         <div class="left-container">
-            <span class="logo-image" >ECOM</span>
+            <span class="logo-image" >Pixels</span>
         </div>
         <div class="right-container">
             <div class="account-signin">
@@ -24,25 +34,28 @@
             <div class="inputs-container">
                 <div class="input-inner">
                     <label>Name</label>
-                    <input type="text" />
+                    <input type="text" id="name"/>
+                    <span class="warning-name">Name should be greater than 4 characters</span>
                 </div>
                 <div class="input-inner">
                     <label>Email</label>
-                    <input type="text" />
+                    <input type="text" id="email" />
+                    <span class="warning-email">Email should be valid</span>
                 </div>
                 <div class="input-inner">
                     <label>Password</label>
-                    <input type="text" />
+                    <input type="text" id="password" />
+                    <span class="warning-password">Password should be min of 8 characters</span>
                 </div>
             </div>
-            <button class="signup-button">SIGNUP</button>
+            <button class="signup-button" onclick="signup()">SIGNUP</button>
             <div class="social-media">
                 <span>Create account with</span>
-                <div class="icon"></div><div class="icon"></div><div class="icon"></div>
+                <div class="icon"><i class="fa-brands fa-google fa-xl"></i></div><div class="icon"><i class="fa-brands fa-linkedin  fa-xl"></i></div><div class="icon"><i class="fa-brands fa-facebook  fa-xl"></i></div>
             </div>
         </div>
     </div>
 </div>
-    
+    <script src="index.js"></script>
 </body>
 </html>
